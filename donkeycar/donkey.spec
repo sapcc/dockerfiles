@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: donkeycar
-        image: sapcc/donkeycar:v201905231120
+        image: sapcc/donkeycar:v201905231549
         command: ["/bin/sh", "-ec", "tail -f /dev/null"]
         volumeMounts:
           - mountPath: /data
